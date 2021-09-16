@@ -1,0 +1,14 @@
+# depedencies
+/node_modules
+
+# idea
+.idea/*
+*.iml
+!.idea/codeStyles
+!.idea/jsLinters
+!.idea/runConfigurations
+
+# Logs
+logs
+*.log
+npm-debug.log*
