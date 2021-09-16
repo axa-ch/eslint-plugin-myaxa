@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-myaxa",
+  "name": "@axa-ch/eslint-plugin-myaxa",
   "version": "0.0.1",
   "description": "Eslint plugin with custom rules for myaxa",
   "keywords": [
@@ -11,7 +11,8 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "release": "npm i && npm whoami && npm test && npm publish"
   },
   "dependencies": {
     "requireindex": "^1.1.0"
