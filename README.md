@@ -8,7 +8,7 @@ Currently in contains these rules:
 
 ### How to edit existing rules
 
-> !!! You have to increase version in myaxa-eslint-plugin/package.json, when you update existing rule !!!
+- Don't forget to increase version and release when you update existing rule
 
 ### How to add new rules
 
